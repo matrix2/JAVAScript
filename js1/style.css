@@ -71,8 +71,11 @@ margin-left:5%;
 @media only screen and (max-width: 650px) {
 	
 	#title {
-        font-size:90%;
+	text-align:center;
+        font-size:100%;
+	
     }
+	table{font-size:100%;}
 	#random{ }
 	#messenger {
   position: absolute;
