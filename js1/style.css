@@ -70,8 +70,8 @@ margin-left:5%;
 }
 @media only screen and (max-width: 650px) {
 	
-	#maindv {
-        font-size:100%;
+	#title {
+        font-size:90%;
     }
 	#random{ }
 	#messenger {
