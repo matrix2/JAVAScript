@@ -45,7 +45,7 @@ for( var i = 0; i < NamesList.length; i++)
 			
 }
 printme();
-document.getElementById("date").innerHTML = (new Date()).toLocaleDateString('en-US');;
+document.getElementById("date").innerHTML = (new Date()).toLocaleDateString('en-GB');;
 }
 var u = 0;
 var o = 0 ;
