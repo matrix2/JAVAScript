@@ -73,10 +73,11 @@ margin-left:5%;
 	#title {
 	text-align:center;
         font-size:100%;
+	margin-top:7%;
 	
     }
 	table{font-size:100%;}
-	#random{ }
+	#TOnames{margin-left:6%; }
 	#messenger {
   position: absolute;
   top: 4%;
