@@ -8,7 +8,7 @@ var Messenger = function(el){
     m.current_length = 0;
     m.fadeBuffer = false;
     m.messages = [
-      'Teams Generation Developed By Anas.',
+      'Developed By Anas AQrabawi.',
       'Its Dynamic.',
       'Just Edit the List!',
       'Cool.'
