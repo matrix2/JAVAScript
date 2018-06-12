@@ -39,7 +39,7 @@ function ManageOurMeeting() {
 	console.log(dateObj + 5);
 	
 	document.getElementById("todayis").style.display="block";
-	document.getElementById("todayis").innerHTML="Today is :" + n + "\n" + "How Many Days to meet : " + onlyNum + "\n" + "We are meeting on " + day2 + " " + (new Date()).toLocaleDateString('en-GB'); 
+	document.getElementById("todayis").innerHTML="Today is :" + n + "\n" + "How Many Days to meet : " + onlyNum + "\n" + "We are meeting on " + day2 ; 
 
 	
 	
