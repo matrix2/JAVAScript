@@ -106,8 +106,8 @@ var i;
             content.style.display = "block";
 			var onlyNum =  content.childNodes[1].innerHTML.replace(/\D/g,'');
 			console.log(onlyNum);
-			if (onlyNum ==max){  alert("Congrats ! You Made It and Got the Max Degree"); }
-			if (onlyNum ==min){  alert("Min Score:","Keep Going You Can do It"); }
+			if (onlyNum ==max){  alert("Congrats ! :) You Made It and Got the Max Degree"); }
+			if (onlyNum ==min){  alert("Min Score:Hard Luck ,Keep Going You Can do It"); }
         }
     };
  
