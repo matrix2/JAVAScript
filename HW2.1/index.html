@@ -7,20 +7,37 @@
     <meta charset="UTF-8">
 
     <title>ANAS HYF Homework</title>
+	
+	<link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	
 </head>
 
 <body>
-<div> <h1> HYF - HW 2.1 By Anas AQrabawi </h1>
-<h1> Click on your Badge To get Your Score  </h1>
-</div>
-  <div class="chip" id="chip0" name="0" onClick="reply_click(this.name)">
-  <img src="img_avatar.png" id="img0" alt="Person" width="96" height="96">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top"> 
+<a class="navbar-brand" href="#">HYF - HW 2.1 By Anas AQrabawi</a>  
+			<ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+           <li class="nav-item active">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          </ul>
+       <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" id="mysearch"type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="button" onClick="searchByAnything(document.getElementById('mysearch').value)">Search</button>
+        </form>
+       
+</nav>
+ <div class="container">
+  <div class="starter-template" id="chip0" tabindex="0" name="0" onClick="reply_click(this.name)" onmouseleave="closeme(this.name)" onmouseenter="reply_click(this.name)" >
+  <img src="male.png" id="img0" alt="Person" width="96" height="96">
   <span id="name0" >tester</span>
-  </BR><ul class="content" id="0"> <li> Grade:  </li> <li> Grade: 2 </li> <li> Grade:  </li> 
+  </BR><ul class="content" id="0"> <li> Grade:  </li> <li> Grade: 2 </li> <li> Grade:  </li> <li id="msg0" class="msgcls"> Grade:  </li>
   </ul>
   </div>
-  
+  </div>
 <!-- </div>
  <div class="chip">
   <img src="img_avatar.png" name="openinfo2" alt="Person" onClick="reply_click(this.id,this.name)" width="96" height="96">
